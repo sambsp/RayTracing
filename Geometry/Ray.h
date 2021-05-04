@@ -9,7 +9,10 @@
 
 class Ray {
 public:
-    Ray(Vector3 origin, Vector3 direction);
+    Ray(const Vector3& origin, const Vector3& direction) {
+        this->origin = origin;
+        this->direction = direction;
+    }
 
     Vector3 origin;
     Vector3 direction;
