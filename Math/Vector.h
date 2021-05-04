@@ -32,6 +32,12 @@ public:
         return Vector3(x * mul, y * mul, z * mul);
     }
 
+    // 作为引用的返回，必须让编译器看到不是临时的变量
+    Vector3& operator- (const Vector3& rhs) {
+        Vector3* result = new Vector3();
+        return *result;
+    }
+
     // 3维向量的内部存储，x、y、z在实际意义上可能是向量、位置、三原色的r、g、b等等
     float x = 0, y = 0, z = 0;
 };
