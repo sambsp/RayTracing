@@ -13,7 +13,7 @@ public:
     Vector3 Center;
     float Radius;
 
-    bool RayIntersetion(const Ray& ray) override;
+    bool RayIntersection(const Ray& ray) override;
 
     ~SphereColliderComponent();
 };

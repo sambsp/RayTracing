@@ -10,7 +10,7 @@
 
 class ColliderComponent {
 public:
-    virtual bool RayIntersetion(const Ray& ray) = 0;
+    virtual bool RayIntersection(const Ray& ray) = 0;
 
     ~ColliderComponent() {}
 };

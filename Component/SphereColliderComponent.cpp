@@ -4,6 +4,6 @@
 
 #include "SphereColliderComponent.h"
 
-bool SphereColliderComponent::RayIntersetion(const Ray &ray) {
+bool SphereColliderComponent::RayIntersection(const Ray &ray) {
     return false;
 }
