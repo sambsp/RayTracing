@@ -8,6 +8,8 @@
 
 class Geometry {
     //给一个uuid，这个类做基类，要写什么？
+public:
+    ~Geometry() {}
 };
 
 

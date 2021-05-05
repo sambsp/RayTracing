@@ -7,7 +7,8 @@
 
 
 class Component {
-
+public:
+    ~Component();
 };
 
 
