@@ -8,7 +8,7 @@
 
 class Material {
 public:
-
+    ~Material() {}
 };
 
 
